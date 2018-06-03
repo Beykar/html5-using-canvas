@@ -1,0 +1,15 @@
+
+
+
+
+
+#canvasContainer{
+    width:960px;
+    margin:200px auto;
+}
+
+
+#c1{
+    border: dashed 2px black;
+    background-color:skyblue;
+}

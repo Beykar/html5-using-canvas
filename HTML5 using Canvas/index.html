@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 5 using Canvas</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="canvasContainer">
+            <h1 id="canvasHeader">Canvas Exercise</h1>
+            <p id="canvasPar">
+                <ul>
+                    <li>Click on the canvas below to set the position of the plane.</li>
+                    <li>Once the plane position is set, bombs will be released from the plane</li>
+                </ul>
+            </p>
+            <canvas id="c1" width="960px" height="500px">
+                <img id="planePic" src="imgs/plane.png"  width="225" height="225" alt="bomber plane">
+            </canvas><!--/c1-->
+            <p class="btnsPar">
+                <button type="button" id="clearBtn">clear canvas</button>
+                <button type="button" id="pauseBtn">pause</button>
+                <button type="button" id="restoreBtn">restore</button>
+                <button type="button" id="restartBtn">restart</button>
+            </p>
+
+        </div><!--/canvasContainer-->
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
